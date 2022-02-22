@@ -1,0 +1,36 @@
+.askBox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+.askBox:hover {
+    border: 1px solid rgb(175, 175, 175);
+}
+    
+.askBox__info {
+    display: flex;
+    align-items: center;
+}
+    
+.askBox__info > h5 {
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    margin-left: 10px;
+}
+    
+.askBox__ask {
+    display: flex;
+    margin-top: 8px;
+}
+    
+.askBox__ask > p {
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+}
+  
